@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:Arial;text-align:center;">
+
+<h1>Location Selection</h1>
+
+<form action="{{url_for('result')}}" method='POST'>
+<label for="kota">Choose your location:</label>
+
+<select id="kota" name="kota">
+  <option value="smg">Semarang</option>
+  <option value="slt">Salatiga</option>
+  <option value="srk">Surakarta</option>
+  <option value="mgl">Magelang</option>
+  <option value="pkl">Pekalongan</option>
+  <option value="tgl">Tegal</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+<p>Choose a city, and click the "Submit" button.</p>
+
+</body>
+</html>
